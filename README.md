@@ -34,7 +34,7 @@ Description:
   Screenshot(s):
   
   Day Planner - Overall Screen
-  ! Day Planner - Overall Screen:](https://puu.sh/Fspiz/e8a4bdf6e6.png)
+  ![Day Planner - Overall Screen:](https://puu.sh/Fspiz/e8a4bdf6e6.png)
   
   Day Planner - Input Saved Event
   ![Day Planner - Input Saved Event:](https://puu.sh/FspjJ/0d3ee62f6c.png)
