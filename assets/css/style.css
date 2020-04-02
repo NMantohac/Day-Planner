@@ -13,6 +13,20 @@ textarea{
   padding: 10px;
 }
 
+.display-3 {
+  margin-bottom: 30px;
+}
+
+.lead {
+  margin-bottom: 40px;
+}
+
+#currentDay {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: -30px;
+}
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -68,4 +82,87 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+
+/*  need to make box fit space */
+input {
+  background: transparent;
+  border: none;
+
+  /* so cursor appears */
+  padding-left: 3px;
+}
+
+.col-md-1, .col-md-2, .col-md-9 {
+  padding: 0;
+}
+
+/* #planner */
+#plannerContainer {
+  /* background-color: #73919b;   */
+  background-color: #808080;
+  /* provides spacing between the top and bottom nav bars and the content */
+  margin-top: 20px;
+  margin-bottom: 80px;
+  
+  /* provide spaceing around the text */
+  padding: 40px;
+} 
+
+.plannerRow {
+  height: 50px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 1em;
+  line-height: 1.5;
+  border-radius: 15px;
+}
+
+/* style container with time in it */
+.timeBox {
+  background-color: linen;  
+  color: black;
+  height:100%;
+  width: 100%;
+  text-align: center;
+  border-radius: 15px 0px 0px 15px;
+  display: inline-block;
+  font-size: 1em;
+}
+
+/* style container with daily plan */
+.dailyPlan {
+  color: black;  
+  font-size: 12pt;
+  height:100%;
+  width: 100%;
+}
+
+.saveIcon {
+  background-color: darkturquoise;
+  color: linen;
+  border-radius: 0px 15px 15px 0px;
+  /* float: right; */
+  font-size: 1.5em;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    /* removes paddding on either side */
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .plannerRow {
+    height: 100%;
+    border-radius: 10;
+    margin: 10px;
+  }
+
+  .saveIcon { border-radius: 0 0 15px 15px; }
+
+  .timeBox { border-radius: 15px 15px 0 0; }
 }
