@@ -91,6 +91,8 @@ function dayPlanner() {
           // Append elements
           $inputDiv.append($dailyPlanInput);
           $rowDiv.append($inputDiv);
+
+          const saveIcon = "./assets/images/save-regular.svg"; 
       
           // Save button div and attributes
           const $saveDiv = $("<div>");
@@ -98,6 +100,7 @@ function dayPlanner() {
       
           const $saveBtn = $("<button>");
           $saveBtn.attr("id", `saveid-${index}`);
+          $saveBtn.attr("id", "saveBtn");
           $saveBtn.attr("class", "btn btn-info far fa-save saveIcon");
           $saveBtn.attr("type", "button");
           $saveBtn.attr("save-id", index);
@@ -118,7 +121,6 @@ function dayPlanner() {
                 event.preventDefault();  
              
                 let $index = $(this).attr("save-id");
-                console.log("Hello World");  
                 let inputId = "#input-"+$index;
                 let $value = $(inputId).val();
         
