@@ -1,8 +1,8 @@
 # Homework_5
 
 URL Links:
-  1) https://github.com/NMantohac/Homework_5_Day_Planner
-  2) https://nmantohac.github.io/Homework_5_Day_Planner/
+  1) GitHub: https://github.com/NMantohac/Day-Planner
+  2) GitHub Pages: https://nmantohac.github.io/Day-Planner/
   
 Description:
   - A day planner that contains time blocks of a standard day and allows the user to input text, and save it after clicking on the save
